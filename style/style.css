@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,700&family=Roboto:wght@100;400;900&display=swap");
+.titulos, .titulo {
+  color: #f28482;
+  font-weight: bold;
+}
+
+* {
+  padding: o;
+  margin: 0;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: black;
+  background-color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.redes {
+  height: 30px;
+  width: 30px;
+  border: 10px;
+}
+
+/* declaro las areas */
+.parrafo1 {
+  grid-area: parrafo1;
+}
+
+.parrafo2 {
+  grid-area: parrafo2;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+@media (min-width: 500px) {
+  .padre {
+    display: grid;
+    grid-template-areas: "parrafo1" "img1" "parrafo2" "img2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 40% 10% 40%;
+    justify-items: center;
+    align-items: center;
+  }
+  body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) {
+  .padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-template-areas: "parrafo1   img1" "parrafo2   img2";
+  }
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-template-areas: "parrafo1   img1" "parrafo2   img2";
+  }
+  body {
+    font-size: 18px;
+  }
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+header {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+}
+
+p {
+  padding: 5px;
+}
+
+a {
+  font-weight: 100;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: larger;
+  color: #f28482;
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+p {
+  font-size: medium;
+}
+
+.sabores {
+  color: #83c5be;
+  margin: 50px;
+}
+
+.mainText {
+  padding: 30px;
+}
+
+.row {
+  margin: 1%;
+  background-color: #83c5be;
+  padding: 2%;
+}
+
+.saboresHelado {
+  margin-bottom: 50px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.section {
+  background-color: #83c5be;
+}
+
+.imgNehuen {
+  border-radius: 10px;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f28482;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f28482;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #f28482;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: #f28482;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}/*# sourceMappingURL=style.css.map */

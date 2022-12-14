@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/estilos.css">
+    <meta name="description"content="Benfatto garantiza los ingredientes más frescos, de temporada y sin conservantes. Todos nuestros productos están elaborados artesanalmente con ingredientes de primera calidad, preparados y hechos con amor al detalle. Te invitamos a disfrutar de nuestros productos en nuestro local o te lo llevamos a tu casa, abonando con efectivo, debito y credito">
+    <meta name="keywords" content="Helado, artesanal, calidad, delivery, pagos">
+    <link rel="shortcut icon" href="./images/icons8-cucurucho-de-helado-16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>BENFATTO</title>
+    <title>Inicio</title>
 </head>
 
 <body>
@@ -17,14 +19,14 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
-                <img class="imgLogo" src="./images/IMG_0473.PNG" alt="logo" width="15%">
+                <img class="imgLogo" src="./images/IMG_0473.PNG" alt="logo" width="10%">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav navbar-center">
                         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         <a class="nav-link active" aria-current="page" href="./section/sabores.html">Sabores</a>
                         <a class="nav-link active" aria-current="page" href="./section/postreshelados.html">Postres</a>
@@ -38,23 +40,46 @@
 
     <main class="main">
         <div class="mainText">
-            <h1>Esta primavera disfrutá de nuestro helado</h1>
-            <h3>Tentate con nuestros sabores</h3>
+            <h1 class="titulo">Disfruta del verdadero helado artesanal</h1>
+            <h3>- BenFatto, hecho a mano -</h3>
         </div>
-        <img class="imgTacita" data-aos="zoom-in" src="./images/tacitabenfatto.JPG" alt="tacita">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-flex justify-content-center" data-bs-interval="10000">
+                    <img src="./images/a (1).jpg" class="d-block w-80" alt="tacita dl">
+                </div>
+                <div class="carousel-item d-flex justify-content-center" data-bs-interval="10000">
+                    <img src="./images/b (1).jpg" class="d-block w-80" alt="tacita fdb">
+                </div>
+                <div class="carousel-item d-flex justify-content-center" data-bs-interval="10000">
+                    <img src="./images/c (1).jpg" class="d-block w-80" alt="tacita avellanas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
 
     <section class="section">
-        <h2>SIEMPRE CERCA TUYO</h2>
-        <p>En Benfatto te esperamos para degustar las cosas mas ricas. Si estas dentro del radio de delivery, hece tu
-            pedido por nuestra App on line y te lo llevamos sin cargo en el momento.</p>
+        <h2>Siempre cerca tuyo</h2>
+        <p>Benfatto sabe lo mucho que deseas tomar los helados más deliciosos en la comodidad de tu hogar, por eso
+            creamos una nueva forma de llevártelos sin moverte de tu casa. Sólo tenes que hacer tu pedido a través de
+            nuestra App y nosotros te lo entregamos, ¡y gratis!</p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13115.625414663436!2d-58.2636117!3d-34.7327548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcda67175ec918fa3!2sBenfatto%20Artesanal!5e0!3m2!1ses-419!2sar!4v1666835754614!5m2!1ses-419!2sar"
             width="60%" height="45%" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>Ademas te invitamos a escanear nuestro codigo QR y hacer tu pedido a traves de nuestra App</p>
+        <p>Escanea nuestro codigo QR y hace tu pedido</p>
         <img src="./images/QR.jpeg" alt="QR" width="80vph" height="80vph">
-        <p>O sino ingresa haciendo click aqui!</p>
+        <p>O sino ingresa a nuestra App haciendo click aqui!</p>
         <a class="btn btn-dark" href="https://shopyme.com.ar/benfatto/" role="button">Click me</a>
     </section>
 
@@ -65,11 +90,11 @@
             <h4>TELEFONO</h4>
             <p>1125986271</p>
             <h4>DIRECCION</h4>
-            <p>Andres Baranda 1898-Quilmes</p>
-            <p>----------------------------------------------------</p>
-            <a href="https://www.instagram.com/benfatto.artesanal/" target="_blank"><img
+            <p>Andres Baranda 1898 - Quilmes</p>
+            <p>------------------------------------------------------------------------------------</p>
+            <a href="https://www.instagram.com/benfatto.artesanal/" target="_blank"><img class="redes"
                     src="./images/icons8-instagram (1).svg" alt="logo instagram"></a>
-            <a href="https://www.facebook.com/benfattoartesanal" target="_blank"><img
+            <a href="https://www.facebook.com/benfattoartesanal" target="_blank"><img class="redes"
                     src="./images/icons8-facebook-nuevo.svg" alt="logo facebook"></a>
             <p>2022-Todos los derechos reservados</p>
         </div>

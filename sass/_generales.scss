@@ -1,0 +1,31 @@
+* {
+    padding: o;
+    margin: 0;
+}
+
+html {
+    font-size: 62, 5%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.redes{
+    @include sizes (30px, 30px);
+    border: 10px;
+}

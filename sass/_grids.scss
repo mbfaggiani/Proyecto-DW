@@ -1,0 +1,59 @@
+/* declaro las areas */
+.parrafo1 {
+    grid-area: parrafo1;
+}
+
+.parrafo2 {
+    grid-area: parrafo2;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+@media (min-width: 500px) {
+    .padre {
+        display: grid;
+        grid-template-areas: "parrafo1""img1""parrafo2""img2";
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 40% 10% 40%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    body {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .padre {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas: "parrafo1   img1""parrafo2   img2";
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .padre {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas: "parrafo1   img1""parrafo2   img2";
+    }
+
+    body {
+        font-size: 18px;
+    }
+}

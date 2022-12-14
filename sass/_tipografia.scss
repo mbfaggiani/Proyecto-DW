@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,700&family=Roboto:wght@100;400;900&display=swap");
+
+$title_font: "Roboto", normal, black;
+
+.titulos{
+    color: #f28482;
+    font-weight: bold;
+}
+
+.titulo{
+    @extend .titulos;
+}
